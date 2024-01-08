@@ -64,11 +64,17 @@
     font-size: 50px;
 }
 .welcometext h4{
-    color: white;
+    color:white
     font-size: 20px;
     padding-top: 30px;
     border-bottom: none;
 }
+
+
+
+
+
+
 .btn{
     background:black;
     padding: 5px;
@@ -76,7 +82,7 @@
 
 }
 .welcome img{
-    width: 1px;
+    width: 1220px;
     filter: brightness(50%);
 }
 
@@ -93,11 +99,24 @@
     
 }
 .place button{
-  color: white;
+  color:white;
   background-color: #FF0000;
    padding: 10px 15px;
    border:none;
    border-radius: 5px;
    margin-top: 24px;
    
+}
+.new-place{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+}
+
+
+.main{
+    max-width:1140px;
+    margin: 0 auto; 
+    
+    
 }
