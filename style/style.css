@@ -21,10 +21,17 @@
     padding: 0;
     line-height: 40px;
 }
+
+
 .newyear img{
     width: 1220px;
     margin-top: 50px;
     filter: brightness(50%);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* row-gap: 3rem; */
+
     
 }
 .offdiscount{
@@ -84,6 +91,11 @@
 .welcome img{
     width: 1220px;
     filter: brightness(50%);
+    align-items: center;
+
+    
+
+
 }
 
 .place{ 
@@ -110,7 +122,7 @@
 .new-place{
     padding: 130px;
     border-radius: 10px;
-    background: #fff8f3;
+    
 }
 
 
@@ -119,4 +131,114 @@
     margin: 0 auto; 
     
     
+}
+.welcome-section{
+    padding: 130px; 
+    border-radius:10px;
+    
+    
+}
+ /* .welcome-main{   */
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.main{  
+    max-width: 1140px;
+    margin: 0,auto;
+}
+
+
+
+.offer{
+    margin-top: 100px;
+	display: grid;
+  	justify-content: center;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	background: #FFF;
+}
+.commingsoon{
+	padding-right: 100px;
+}
+
+.offer-img{
+	display: grid;
+  	justify-content: center;
+}
+.offer-img img{
+    width:300px;
+    padding: 20px;
+	border-radius: 50%;
+	border: 10px solid red;
+
+}
+.offer-right{
+	padding-left: 120px;
+}
+
+.function{
+    margin-top: 100px;
+    text-align: center;
+
+}
+.function h1{
+    font-size: 50px;
+    
+}
+.function p{
+    font-size: 20px;
+}
+.offer-discount{
+
+}
+.offer-discount img{
+
+}
+.combineDis{ */
+     position: relative; 
+}
+.dis{ 
+    position: absolute;
+    float: right;
+    margin-left: 680px;
+}
+.dis img{ */
+    width: 200px;
+    padding-top: 150px;
+}
+.img-box{
+    position: relative;
+}
+.img-box-abs{
+    position: relative;
+    width: 700px;
+    margin-top: -400px;
+    padding-left: 50px;
+}
+.portfolio-img >div img{
+    width: 400px;
+}
+.portfolio-img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+
+}
+/* .portfolio-img:hover{ */
+    background-color: yello;
+}
+.subscribe{
+    margin-top: 100px;
+	background-color: #FDF3F2;
+	border-radius: 10px;
+	padding: 100px;
+	text-align: center;
+}
+.subscribe input;button{
+    padding: 15px;
+	border:none;
+}
+.subscribe input{
+    padding-right: 100px;
+    border-radius: 10px;
+    position: relative;
 }
