@@ -289,6 +289,7 @@ align-content: center ;
     background-color: black;
     color: white;
     margin-top: 100px;
+    width: 100%;
 }
 .footer-content{
     width: 1220px;
