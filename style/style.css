@@ -67,6 +67,16 @@
     position: absolute;
     color: white;
 }
+.welcometext img{
+    
+float: right; 
+display: flex;
+align-content: center ;
+
+}
+
+
+
 .welcometext h1{
     font-size: 50px;
 }
@@ -241,7 +251,15 @@
     grid-template-columns: auto auto auto;
 	grid-gap: 10px;
 
+
+
 }
+.portfolio-img img:hover{
+    
+    
+    border-radius:50%;
+}
+
 .subscribe{
     
     border-radius: 16px;
