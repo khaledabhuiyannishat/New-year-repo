@@ -91,7 +91,7 @@
 .welcome img{
     width: 1220px;
     filter: brightness(50%);
-    align-items: center;
+    /* align-items: center; */
 
     
 
@@ -119,30 +119,31 @@
    margin-top: 24px;
    
 }
-.new-place{
+ .new-place{ */
     padding: 130px;
     border-radius: 10px;
     
 }
 
 
-.main{
+   .main{ 
     max-width:1140px;
     margin: 0 auto; 
     
     
 }
-.welcome-section{
+  .welcome-section{ 
     padding: 130px; 
     border-radius:10px;
     
     
 }
- /* .welcome-main{   */
+  .welcome-main{   
     max-width:1140px;
     margin: 0 auto;
 }
-.main{  
+/* 2024 */
+  .main{    
     max-width: 1140px;
     margin: 0,auto;
 }
@@ -185,6 +186,17 @@
     
 }
 .function p{
+
+}
+
+.offer-discount img{
+
+}
+
+
+
+
+.function p{
     font-size: 20px;
 }
 .offer-discount{
@@ -193,7 +205,7 @@
 .offer-discount img{
 
 }
-.combineDis{ */
+.combineDis{ 
      position: relative; 
 }
 .dis{ 
@@ -201,7 +213,7 @@
     float: right;
     margin-left: 680px;
 }
-.dis img{ */
+.dis img{ 
     width: 200px;
     padding-top: 150px;
 }
@@ -209,10 +221,17 @@
     position: relative;
 }
 .img-box-abs{
-    position: relative;
+    position:absolute;
     width: 700px;
     margin-top: -400px;
     padding-left: 50px;
+}
+
+.portfolio{
+
+}
+.portfolio_text{
+
 }
 .portfolio-img >div img{
     width: 400px;
@@ -233,7 +252,7 @@
 	padding: 100px;
 	text-align: center;
 }
-.subscribe input,button{
+.subscribe input, button{
     padding: 15px;
 	border:none;
 }
@@ -256,6 +275,9 @@
     margin-left: -80px;
 
 }
+
+
+
 .footer{
     background-color: #000000;
     color: white;
@@ -268,6 +290,8 @@
 .footer-top{
     display: grid;
     padding: 0px 60px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
 }
 .right-text .social{
     display: flex;
